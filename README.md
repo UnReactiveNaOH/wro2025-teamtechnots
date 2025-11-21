@@ -1,26 +1,45 @@
-Engineering materials
-====
+The Future Engineers category of WRO 2025 tests how well teams can design and program a fully autonomous robot vehicle. Teams compete in two main challenges: Open Challenge and Obstacle Challenge.
 
-This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2022.
+Open Challenge
 
-## Content
+The robot must drive around the racetrack without any traffic signs or external help. It must:
 
-* `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
-* `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
-* `video` contains the video.md file with the link to a video where driving demonstration exists
-* `schemes` contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
-* `src` contains code of control software for all components which were programmed to participate in the competition
-* `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
-* `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
+Stay inside the track
 
-## Introduction
+Drive smoothly around curves and straights
 
-_This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
+Use sensors and good programming to stay controlled
 
-## How to prepare the repo based on the template
+This challenge tests basic autonomous driving skills, including stability, sensor accuracy, and reliable movement.
 
-_Remove this section before the first commit to the repository_
+Obstacle Challenge
 
-1. Clone this repo by using the `git clone` functionality.
-2. Remove `.git` directory
-3. [Initialize a new public repository on GitHub](https://github.com/new) by following instructions from "create a new repository on the command line" section (appeared after pressing "Create repository" button).
+In this challenge, objects are placed on the track, and the robot must detect and avoid them. The robot must:
+
+Sense obstacles
+
+Change direction
+
+Avoid collisions
+
+Return to the correct path
+
+This tests obstacle detection, decision-making, path planning, and reaction speed, similar to real self-driving cars.
+
+Overall
+
+Teams complete at least four rounds (two Open and two Obstacle), with random driving directions and track layouts. Together, the two challenges evaluate how well the robot can navigate independently and handle unpredictable situations — the core skills of real self-driving technology.
+
+Our robot is built from the Zmrobo intelligence storm kit. it consists of a chassis with dummy wheels in the front and a rear wheels controlled by a motor servo, which uses an ultrasonic sensor and a camera from the kit, programmed in the zmrobo programminhg website.
+
+we are team Technonots aka the tech divas. we consists of jessica, naomi , elvita and chigaemezu. we are an all-girls team and are a mission to fabulously incorporate technology and prove that girls can do anything! YOUTUBE LINK- https://youtu.be/R5IXOcNiPzM?si=bqHzKdbBwHse-Dkn Chigaemezu- head of docuementation and design Elvita- Head of programming and co-captain Jessica- docuementation and design Naomi- captain
+
+we designed our robot, pzazz chinedu, to score maximum points with a light chassis and an overall simple mechanical build. we wanted to make sure the robot easy to program and fix errors if encountered.
+
+Pzazz consists of a rear wheels controlled by a motor and dummy wheels controlled by a servo motor. it uses a motot and a servo motor. it has a camera and a ultrasonic sensor and a colour sensor( which we have tried to use) the robot uses the ultrasonic sensor to detect obstacles from a range of 10-15cm and will turn away from the obtscale(the wall) in the open challnege. for the obstacle challenge the robot uses a camera to detect the blocks and their respective colours.(it aslo serves as a colour sensor)
+
+we simply used the zmrobo intelligence storm kit to build our robot. the ZMROB3 program was used to compile the codes and a USB cord was used to upload the codes to the robot.
+
+We tested if the robot was able to adjust and go round three laps and without going out of the map and hitting the wall. we learnt we made some mistakes in the code and the mechanical structure and we had to remove the colour sensor as it was malfunctioning. we made those mistakes because it was our first time using that programmming website and had to master using it. we were also quite inexperienced when it came to programming and building. we also started late to start working on our robot.
+
+At first the robot went out of the map and hitted the walls but later on it was able to go round three laps and most adjust itself when it is too close to the obstacles(wall) automatically.
